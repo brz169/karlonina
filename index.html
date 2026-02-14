@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="bg">
+
+    <!-- INTRO SCREEN -->
+    <section class="card intro" id="introCard">
+
+      <div class="gif-wrap">
+        <!-- intro animation image -->
+        <img src="cat.gif" alt="cute intro cat">
+      </div>
+
+      <p class="intro-text">Preparing something cute… 💞</p>
+
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </section>
+
+
+    <!-- QUESTION CARD -->
+    <section class="card hidden" id="card">
+
+      <!-- ✅ THIS IS THE IMAGE ABOVE THE QUESTION -->
+      <div class="gif-wrap">
+        <img id="cuteImg" src="cat.gif" alt="cute cat">
+      </div>
+
+      <h1 id="title">
+        Will you be my<br>Valentine?
+      </h1>
+
+      <div class="btn-row" id="btnRow">
+        <button class="btn yes" id="yesBtn">Yes! ❤️</button>
+        <button class="btn no" id="noBtn">No</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
